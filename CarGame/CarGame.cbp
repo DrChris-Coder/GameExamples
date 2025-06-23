@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CarGame" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CarGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CarGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/SDL2/SDL2-2.32.2/x86_64-w64-mingw32/include/SDL2" />
+			<Add directory="C:/SDL2/SDL2_image-2.6.3/x86_64-w64-mingw32/include/SDL2" />
+			<Add directory="C:/SDL2/SDL2_ttf-2.24.0" />
+			<Add directory="C:/SDL2/" />
+			<Add directory="C:/SDL2/glm" />
+			<Add directory="C:/SDL2/SDL2_ttf-2.24.0/" />
+			<Add directory="C:/SDL2/SDL2_ttf-2.24.0/x86_64-w64-mingw32/include/SDL2" />
+			<Add directory="C:/SDL2/SDL2_ttf-2.24.0/x86_64-w64-mingw32/bin" />
+			<Add directory="C:/SDL2/SDL2_ttf-2.24.0/x86_64-w64-mingw32/include" />
+			<Add directory="C:/SDL2/SDL2_ttf-2.24.0/x86_64-w64-mingw32/lib" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image" />
+			<Add directory="C:/SDL2/SDL2-2.32.2/x86_64-w64-mingw32/lib" />
+			<Add directory="C:/SDL2/lib" />
+			<Add directory="C:/SDL2/SDL2_image-2.6.3/x86_64-w64-mingw32/lib" />
+			<Add directory="C:/SDL2/SDL2_ttf-2.24.0/x86_64-w64-mingw32/lib" />
+			<Add directory="C:/SDL2/SDL2_image-2.6.3/x86_64-w64-mingw32" />
+		</Linker>
+		<Unit filename="../../Car Racing Game Files/Consolas-Regular.ttf" />
+		<Unit filename="../../Car Racing Game Files/Images/Bugatti.png" />
+		<Unit filename="../../Car Racing Game Files/Images/car.png" />
+		<Unit filename="../../Car Racing Game Files/Images/carIcon.png" />
+		<Unit filename="../../Car Racing Game Files/Images/caropp1.png" />
+		<Unit filename="../../Car Racing Game Files/Images/caropp2.png" />
+		<Unit filename="../../Car Racing Game Files/Images/caropp3.png" />
+		<Unit filename="../../Car Racing Game Files/Images/explosion.gif" />
+		<Unit filename="../../Car Racing Game Files/Images/explosion.png" />
+		<Unit filename="../../Car Racing Game Files/Images/gameover.png" />
+		<Unit filename="../../Car Racing Game Files/Images/grass1.jpg" />
+		<Unit filename="../../Car Racing Game Files/Images/longtree1.jpg" />
+		<Unit filename="../../Car Racing Game Files/Images/longtree2.jpg" />
+		<Unit filename="../../Car Racing Game Files/Images/road1.jpg" />
+		<Unit filename="../../Car Racing Game Files/Images/tree1.jpg" />
+		<Unit filename="../../Car Racing Game Files/Images/tree2.jpg" />
+		<Unit filename="Games.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
